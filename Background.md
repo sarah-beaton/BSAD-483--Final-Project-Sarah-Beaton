@@ -1,4 +1,4 @@
-#Background:
+# Background
 
 Nova Scotia Power's Chief Privacy Officer must decide whether to change the company's privacy policy using plain language principles or maintain current legalistic standards. This decision matters because Nova Scotia Power operates as a regulated monopoly serving over 500,000 customers who cannot switch providers easily. Unlike competitive markets, trust manifests through regulatory complaints, media scrutiny, and political pressure rather than lost market share (Wagner, 2021). As an essential service handling sensitive consumption data, the company requires social license to operate, making transparent communication critical for institutional legitimacy.
 The decision is difficult because it involves fundamental tradeoffs between competing priorities. Legal teams advocate for comprehensive language that minimizes liability and ensures regulatory compliance under PIPEDA. Customer service teams recognize that incomprehensible policies damage trust and increase complaints. Executive leadership must balance these pressures alongside budget constraints and potential regulatory challenges.
@@ -8,12 +8,12 @@ Key stakeholders include internal groups with competing interests: legal departm
 
 Industry practice has converged toward legalistic policies following regulatory interventions. GDPR and CCPA implementation triggered revisions that increased complexity rather than accessibility (Wagner, 2021). Some organizations adopted layered notices with short summaries, though results are mixed. In Canadian energy specifically, systematic plain language revisions remain rare. Nova Scotia Power's current policy reflects typical patterns: comprehensive legal disclosure designed for compliance rather than understanding, with incremental updates adding complexity without attention to accessibility.
 
-Key Stake Holders
+## Key Stake Holders
 
 Internal: Legal Department, Customer Service, Corporate Communications, Executive Leadership, IT/Data Governance
 External: Residential/Commercial Customers, NS Utility and Review Board, Privacy Commissioner of Canada, Consumer Advocacy Groups, Media/Public
 
-# References
+## References
 
 Acquisti, A., Brandimarte, L., & Loewenstein, G. (2015). Privacy and human behavior in the age of information. Science, 347(6221), 509–514.
 
@@ -48,5 +48,5 @@ Wagner, I. (2022). Privacy Policies Across the Ages: Content and Readability of 
 
 Wilson, S., Schaub, F., Dara, A. A., Liu, F., Cherivirala, S., Leon, P., Andersen, M., Zimmeck, S., Sathyendra, K., Russell, N., Norton, T., Hovy, E., Reidenberg, J., & Sadeh, N. (2016). The Creation and Analysis of a Website Privacy Policy Corpus. 1330–1340. https://doi.org/10.18653/v1/P16-1126
 
-# Dataset
+## Dataset
 https://github.com/sarah-beaton/Sarah-Beaton-Honours-
