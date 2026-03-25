@@ -39,7 +39,12 @@ fig2 = px.scatter(filtered, x="OrgVoice", y="CognitiveComplexity", size="Size_Re
                  hover_name="company", hover_data={"Size_Ref": False, "ConsumerEngagement": True})
 st.plotly_chart(fig2, use_container_width=True)
 
-# Visualization 3: Raw Data Table
+# Visualization 3: Distribution of Metrics by Sector
+st.subheader("Linguistic Trends by Sector")
+fig3 = px.box(filtered, x="Sector", y="CognitiveComplexity", color="Sector", points="all")
+st.plotly_chart(fig3, use_container_width=True)
+
+# Visualization 4: Raw Data Table
 st.subheader("Policy Metric Breakdown")
 st.dataframe(filtered.drop(columns=['Size_Ref']), use_container_width=True)
 
