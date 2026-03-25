@@ -35,5 +35,13 @@ Balancing Loop, Consumer Trust: Policy complexity reduces consumer comprehension
 
 these loops creates the issue of legal protection versus customer accessibility. Understanding which loop currently dominates the system—and how the decision might shift this balance—will be central to the analysis of this project.
 
-#**Streamlit**
+**Streamlit**
 https://bsad-483--final-project-sarah-beaton-aeya3taeshs4azwhtg8qud.streamlit.app/
+
+**Implications for the Decision**
+
+My analysis of 195 privacy policies from 2021 to 2026 shows a major gap between how companies talk and how much users actually engage with them. In sectors like Transportation (specifically Canada Post), the "Cognitive Complexity" scores are very high. This means the policies are written in a way that is very hard for a normal person to read. Despite this, people still use these services because they have to, not because they understand the terms. On the other hand, the Health sector (like Yukon Health) uses a more personal "Organizational Voice," which helps build a more stable relationship with the public.
+
+The evidence suggests that the most promising path for any company is to increase their Organizational Voice score. Companies that use "we" and "us" instead of robotic legal terms see better interaction from their customers. The high-risk, or less promising, option is to stick with the current style found in Telecommunications. These companies have stayed "complex" for years, which suggests they aren't trying to make things easier for their users.
+
+We still don't know for sure if people are engaging with complex policies because they trust the company or just because they don't have another choice. We also need to see if new laws in 2026 will actually force these companies to make their language simpler or if they will just keep using "legalese."
