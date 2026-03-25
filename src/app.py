@@ -7,8 +7,7 @@ import os
 st.set_page_config(layout="wide", page_title="Privacy Analysis Dashboard")
 st.title("Institutional Communication in Privacy Policies (2021-2026)")
 
-# --- FIX: SMART FOLDER PATH ---
-# This looks for data.csv in the same folder as this script
+#folder
 base_path = os.path.dirname(__file__)
 data_path = os.path.join(base_path, "data.csv")
 
