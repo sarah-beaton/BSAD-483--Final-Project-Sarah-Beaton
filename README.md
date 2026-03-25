@@ -34,3 +34,6 @@ Balancing Loop, Consumer Trust: Policy complexity reduces consumer comprehension
 
 
 these loops creates the issue of legal protection versus customer accessibility. Understanding which loop currently dominates the system—and how the decision might shift this balance—will be central to the analysis of this project.
+
+#**Streamlit**
+https://bsad-483--final-project-sarah-beaton-aeya3taeshs4azwhtg8qud.streamlit.app/
