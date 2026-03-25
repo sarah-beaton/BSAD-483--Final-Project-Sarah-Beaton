@@ -35,10 +35,10 @@ Balancing Loop, Consumer Trust: Policy complexity reduces consumer comprehension
 
 these loops creates the issue of legal protection versus customer accessibility. Understanding which loop currently dominates the system—and how the decision might shift this balance—will be central to the analysis of this project.
 
-**Streamlit**
+# Streamlit 
 https://bsad-483--final-project-sarah-beaton-aeya3taeshs4azwhtg8qud.streamlit.app/
 
-**Implications for the Decision**
+# Implications for the Decision
 
 My analysis of 195 privacy policies from 2021 to 2026 shows a major gap between how companies talk and how much users actually engage with them. In sectors like Transportation (specifically Canada Post), the "Cognitive Complexity" scores are very high. This means the policies are written in a way that is very hard for a normal person to read. Despite this, people still use these services because they have to, not because they understand the terms. On the other hand, the Health sector (like Yukon Health) uses a more personal "Organizational Voice," which helps build a more stable relationship with the public.
 
