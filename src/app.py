@@ -26,6 +26,29 @@ engage_slider = st.sidebar.slider("Min. Consumer Engagement", float(df['Consumer
 # Filter Logic
 filtered = df[(df['Sector'].isin(sector_choice)) & (df['ConsumerEngagement'] >= engage_slider)]
 
+# User Guide
+with st.expander("User Guide and Dashboard Instructions"):
+    st.markdown("""
+    ### How to Navigate this Analysis
+    * **Filters:** Use the sidebar to select specific **Sectors** or adjust the **Minimum Consumer Engagement** threshold.
+    * **Sector Comparison (Bar Chart):** Compare how different companies perform in consumer engagement. Higher bars indicate more frequent communication.
+    * **Voice vs. Complexity (Scatter Plot):** * **X-Axis (OrgVoice):** Higher scores represent a more personal organizational tone.
+        * **Y-Axis (Cognitive Complexity):** Higher scores indicate language that is more difficult for consumers to process.
+        * **Bubble Size:** Represents the level of Consumer Engagement.
+    * **Linguistic Trends (Box Plot):** Highlights the distribution and average complexity levels across different industries.
+    """)
+
+# Strategic Implications
+st.divider()
+st.subheader("Strategic Implications")
+col1, col2 = st.columns(2)
+
+with col1:
+    st.info("Analysis suggests that sectors with high Cognitive Complexity scores, such as Financial Services, may face challenges in consumer comprehension due to technical language in their policies.")
+
+with col2:
+    st.success("Data indicates that organizations with higher Organizational Voice scores generally see higher Consumer Engagement, suggesting a more personal tone correlates with better user interaction.")
+
 # Visualization 1: Sector Comparison
 st.subheader("Consumer Engagement by Company")
 fig1 = px.bar(filtered, x="company", y="ConsumerEngagement", color="Sector")
